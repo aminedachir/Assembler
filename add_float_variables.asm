@@ -14,7 +14,7 @@ s.s $f4, number2
 add.s $f12,$f2,$f4
 s.s $f12, number3
 li $v0, 2
-ld $a0, number3
+s.s $f12, number3
 syscall 
 li $v0,10
 syscall
